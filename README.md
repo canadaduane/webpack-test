@@ -26,6 +26,7 @@ const result = new !(function webpackMissingModule() { var e = new Error("Cannot
 
 ## References
 
-https://github.com/webpack/webpack/issues/8762
-https://github.com/webpack/webpack/issues/6191
+- https://github.com/webpack/webpack/issues/9187 (my report)
+- https://github.com/webpack/webpack/issues/8762
+- https://github.com/webpack/webpack/issues/6191
 
