@@ -1,0 +1,17 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-cli --mode development; node -c dist/main.js",
+    "build": "webpack-cli --mode development",
+    "check": "node -c dist/main.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
