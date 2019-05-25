@@ -1,4 +1,4 @@
 console.log("Begin");
-import { Repo } from "hypermerge";
-const repo = new Repo();
+import { SomeClass } from "somemodule";
+const result = new SomeClass();
 console.log("End");
